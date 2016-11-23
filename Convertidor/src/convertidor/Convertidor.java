@@ -25,7 +25,7 @@ public class Convertidor {
             o=JOptionPane.showInputDialog("Ingrese una opcion: \n1)Convertir de grados Fahrenheit a grados Centigrados. \n2)Convertir de grados Centigrados a grados Fahrenheit. \n3)Salir");
             a=Integer.parseInt(o);
             
-        }while(a>=4);
+        }while(a>=5);
         ModeloConvertidor ob1=new ModeloConvertidor(a);
         ob1.convertir();
         
