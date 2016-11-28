@@ -43,7 +43,11 @@ public class ModeloMultiplicar {
     public void multiplicar(){
         int r=0;
         r=n1*n2;
+        // aqui daño valeria
+        r=n1-n2;
         JOptionPane.showMessageDialog(null, "La multiplicacion de "+n1+" y "+n2+" es igual a: "+r);
+        // valeria
+        JOptionPane.showMessageDialog(null, "La resta de "+n1+" y "+n2+" es igual a: "+r);
     }
     
 }
