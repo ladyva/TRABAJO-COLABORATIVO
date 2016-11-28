@@ -46,7 +46,7 @@ public class ModeloMultiplicar {
         // aqui daño valeria
         r=n1-n2;
         JOptionPane.showMessageDialog(null, "La multiplicacion de "+n1+" y "+n2+" es igual a: "+r);
-        // valeria
+        /// valeria
         JOptionPane.showMessageDialog(null, "La resta de "+n1+" y "+n2+" es igual a: "+r);
     }
     
