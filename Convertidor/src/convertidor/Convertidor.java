@@ -29,7 +29,7 @@ public class Convertidor {
         ModeloConvertidor ob1=new ModeloConvertidor(a);
         ob1.convertir();
         
-        
+        System.out.println("CAMBIO REALIZADO DESDE NETBEANS");
     }
     
 }
