@@ -5,6 +5,8 @@
  */
 package proyecto.colavorativo;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author usuario
@@ -16,6 +18,13 @@ public class PROYECTOCOLAVORATIVO {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int a,b;
+        a=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un número: "));
+        b=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un número: "));
+        sumar o1= new sumar(a, b);
+        o1.sumar();
+        MULTIPLICAR o2=new MULTIPLICAR(a, b);
+        o2.multi();
     }
     
 }
