@@ -5,6 +5,9 @@
  */
 package colaborativo;
 
+import ModeloMultiplicarNumeros.ModeloMultiplicar;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author usuario
@@ -16,6 +19,13 @@ public class Colaborativo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int a,b;
+        
+        a=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el valor del primer numero: "));
+        b=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el valor del segundo numero: "));
+        
+        ModeloMultiplicar ob1=new ModeloMultiplicar(a, b);
+        ob1.multiplicar();
     }
     
 }
