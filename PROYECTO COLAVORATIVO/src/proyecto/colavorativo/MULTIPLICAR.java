@@ -34,6 +34,7 @@ public class MULTIPLICAR {
     }
     public void multi(){
         System.out.println(a*b);
+        
     }
     
 }
